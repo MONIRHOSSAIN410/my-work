@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Highlighted search match */
+mark.search-highlight {
+  background-color: #fde047; /* yellow-300 */
+  color: #1e293b;
+  border-radius: 0.15rem;
+  padding: 0 1px;
+}
