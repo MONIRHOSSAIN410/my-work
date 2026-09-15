@@ -1,0 +1,15 @@
+{
+  "name": "search-contact-backend",
+  "version": "1.0.0",
+  "description": "Backend API (Node.js + Express, ESM) for Search Text page and Contact Us page",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node api.js && node server.js",
+    "dev": "node api.js && node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
